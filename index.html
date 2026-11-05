@@ -1,546 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Gabriel Cé — Desenvolvedor C# / .NET</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gabriel Henrique Cé · Desenvolvedor .NET · C#</title>
+<meta name="description" content="Portfólio de Gabriel Henrique Cé, desenvolvedor .NET e C# em Blumenau: Cé Sites, Fala Sério e NoPrumo.">
+<link rel="preload" href="fonts/schibsted-grotesk.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="pagina">
+  <main>
+    <header class="topo">
+      <h1>Gabriel Henrique Cé<span class="ponto">.</span></h1>
+      <p>Desenvolvedor .NET · C#, em Blumenau. Começo pelo problema de quem usa, decido com o que observo e coloco no ar.</p>
+      <nav class="atalhos" aria-label="Atalhos">
+        <a href="#casos">Ver os casos</a>
+        <a href="https://github.com/GabrielHenriqueCe">GitHub</a>
+        <a href="https://www.linkedin.com/in/gabriel-henrique-ce">LinkedIn</a>
+      </nav>
+    </header>
 
-<nav>
-  <div class="wrap">
-    <div class="logo">
-      <span class="dot"></span>
-      <span>gabriel_ce<span class="logo-ext">.cs</span></span>
-    </div>
-    <div class="nav-links">
-      <a href="#about">sobre</a>
-      <a href="#projects">projetos</a>
-      <a href="#stack">stack</a>
-      <a href="#exp">experiência</a>
-      <a href="#contact">contato</a>
-    </div>
-  </div>
-</nav>
-
-<header class="hero">
-  <div class="wrap">
-    <div class="hero-meta reveal d-1">
-      <span>Blumenau · SC</span>
-      <span>C# / .NET 8</span>
-      <span>Eng. Software · 4º sem.</span>
-      <span>2026</span>
-    </div>
-
-    <div class="hero-grid">
+    <section class="caso" id="casos">
       <div>
-        <h1 class="hero-title reveal d-2">
-          Construindo<br>
-          <span class="it">software</span> <span class="amp">&amp;</span><br>
-          aprendendo<br>
-          a cada commit.
-        </h1>
-
-        <p class="hero-tagline reveal d-3">
-          Oi, eu sou <strong>Gabriel Cé</strong>. Desenvolvedor em transição, focado em
-          <strong>C# e .NET</strong>, formado no Entra21. Venho de um background técnico em
-          telecomunicações na Claro — agora cursando Engenharia de Software, tocando o
-          <strong>Cé Sites</strong> e buscando minha primeira vaga como desenvolvedor júnior.
-        </p>
-
-        <div class="hero-cta reveal d-4">
-          <a href="#projects" class="btn btn-primary">
-            Ver projetos <span class="arrow">→</span>
-          </a>
-          <a href="https://github.com/GabrielHenriqueCe" target="_blank" rel="noopener" class="btn">
-            GitHub <span class="arrow">↗</span>
-          </a>
+        <p class="etapa">Colocar no ar e ajustar</p>
+        <div class="titulo-com-mascote">
+          <h2>Cé Sites<span class="ponto">.</span></h2>
+          <canvas class="mascote" width="384" height="216" aria-hidden="true"></canvas>
         </div>
+        <p>Meu negócio de sites para pequenas empresas.</p>
+        <p class="ligacoes"><a href="https://cesites.com.br">Ver o site</a></p>
+        <img class="captura" src="img/cesites-o-que-vai-dentro.png" width="1195" height="624" alt="Cé Sites: o título O que vai dentro do seu site, ao lado de um celular em 3D aberto em camadas">
       </div>
+      <dl class="detalhes">
+        <div><dt>Para quem</dt><dd>Dono de pequeno negócio, que quer um site sem dor de cabeça.</dd></div>
+        <div><dt>O que decidi</dt><dd>Tudo pelo WhatsApp, sem formulário. A página pronta antes de pagar. O domínio no nome do cliente, não no meu.</dd></div>
+        <div><dt>O que observei</dt><dd>No teste com pessoas, no celular, todo mundo passava a animação inteira rolando e não lia nada.</dd></div>
+        <div><dt>O que mudei</dt><dd>Tirei a rolagem presa e troquei por um carrossel que a pessoa passa e lê.</dd></div>
+      </dl>
+    </section>
 
-      <div class="hero-side reveal d-5">
-      <figure class="hero-photo">
-        <img src="Perfil.jpeg" alt="Gabriel Cé" loading="lazy">
-        <figcaption>Gabriel Cé · Blumenau, SC</figcaption>
-      </figure>
-      <aside class="status-card">
-        <div class="label">status atual</div>
-        <div class="status-row">
-          <span>disponibilidade</span>
-          <strong class="available">aberto a vagas</strong>
-        </div>
-        <div class="status-row">
-          <span>localização</span>
-          <strong>Blumenau, SC</strong>
-        </div>
-        <div class="status-row">
-          <span>modalidade</span>
-          <strong>CLT · local/híbrido</strong>
-        </div>
-        <div class="status-row">
-          <span>stack alvo</span>
-          <strong>C# · .NET · React</strong>
-        </div>
-        <div class="status-row">
-          <span>nível</span>
-          <strong>júnior</strong>
-        </div>
-      </aside>
-      </div>
-    </div>
-  </div>
-</header>
-
-<section id="about">
-  <div class="wrap">
-    <div class="about-grid">
-      <div class="section-num">01 / sobre</div>
+    <section class="caso">
       <div>
-        <h2 class="section-title about-title">
-          Técnico de campo virando <em>desenvolvedor</em> — com a vantagem de já saber depurar problemas reais.
-        </h2>
-
-        <div class="about-text">
-          <p>
-            Trabalho na <strong>Claro</strong> como Técnico AT Empresarial III,
-            atendendo clientes de grande porte — bancos, correios, empresas nacionais e órgãos
-            do governo. Diagnóstico de tráfego, perda de pacote, qualidade de serviço em redes
-            HFC e fibra óptica cobrindo mais de 50 cidades.
-          </p>
-          <p>
-            Esse trabalho me deu uma coisa difícil de ensinar em curso: <strong>visão sistêmica</strong>
-            e <strong>troubleshooting sob pressão</strong>. Quando um banco está fora do ar, ninguém
-            quer ouvir tentativa e erro. Você lê os sintomas, isola a variável, valida a hipótese.
-            É o mesmo loop de um bug em produção.
-          </p>
-          <p>
-            Em outubro de 2026 me formei no <span class="hl">Entra21</span> (C#/.NET, 320 horas) e
-            sigo no <span class="hl">4º semestre de Engenharia de Software (Uniasselvi)</span>. Em
-            setembro, ficamos em <span class="hl">3º lugar no Techstars Startup Weekend Blumenau</span>,
-            edição HealthTech, com o Fala Sério: 54 horas, um time formado no próprio evento e
-            nove entrevistas com pessoas reais.
-          </p>
-          <p>
-            Uso IA no dia a dia, revisando cada mudança, e treino sem ela na
-            <span class="hl">Trilha C#</span>. O foco é transformar isso em projetos sérios,
-            não em mais um certificado de curso.
-          </p>
-        </div>
-
-        <div class="quote-box">
-          “Cada projeto que entra no GitHub é uma versão melhor do anterior. O Campo Minado
-          começou procedural; hoje está na v4, com POO avançada e padrões de design.
-          Aprender refatorando é o caminho.”
-        </div>
+        <p class="etapa">Descobrir</p>
+        <h2 class="titulo-sozinho">Fala Sério<span class="ponto">.</span></h2>
+        <p>Serviço de orientação em saúde menstrual, criado em 54 horas no Startup Weekend Blumenau, com um time formado no evento.</p>
+        <p class="ligacoes"><a href="https://falaserio-eight.vercel.app">Ver o site</a></p>
       </div>
-    </div>
-  </div>
-</section>
+      <dl class="detalhes">
+        <div><dt>O que ouvimos</dt><dd>Nove entrevistas apontaram o mesmo bloqueio: a dor existe, mas a informação não chega.</dd></div>
+        <div><dt>O que decidimos</dt><dd>Uma enfermeira para dizer se o que ela sente é esperado ou se é hora de procurar um ginecologista, na conversa onde ela já está e sem aplicativo.</dd></div>
+        <div><dt>O que a regra mudou</dt><dd>Pela ANS, a assinatura não pode garantir consulta, então o plano inclui prioridade de agendamento. Pelo COFEN, a telenfermagem exige registro auditável, e WhatsApp puro não cumpre.</dd></div>
+        <div><dt>Resultado</dt><dd>3º lugar. Modelo projetado com 54% de margem de contribuição e equilíbrio em 596 assinantes.</dd></div>
+        <div><dt>Minha parte</dt><dd>O site do projeto.</dd></div>
+      </dl>
+    </section>
 
-<section id="projects">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="section-num">02 / projetos</div>
-      <h2 class="section-title">
-        Coisas que eu <em>construí</em> — e continuo melhorando.
-      </h2>
-    </div>
-
-    <div class="projects">
-
-      <article class="project">
-        <div class="project-num">
-          <span class="icon">◐</span>
-          PRJ_01
-        </div>
-        <div class="project-body">
-          <h3 class="project-title">Cé Sites</h3>
-          <p class="project-desc">
-            Meu negócio de sites para pequenas empresas de qualquer ramo:
-            <strong class="ink">a gente cria, publica e cuida</strong>, e tudo se resolve numa
-            conversa de WhatsApp. Observei que, no celular, as pessoas rolavam a animação da página
-            sem ler, e troquei por um carrossel que elas passam e leem. O domínio fica no nome
-            do cliente, não no meu.
-          </p>
-          <div class="project-tags">
-            <span class="tag hl">no ar</span>
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">UX</span>
-          </div>
-          <div class="project-shots">
-            <img src="img/cesites-computador.png" width="1280" height="800" alt="Página inicial do Cé Sites no computador: o título Seu negócio com site próprio ao lado de um celular em 3D" loading="lazy">
-            <img src="img/cesites-celular.png" width="500" height="844" alt="A mesma página do Cé Sites na largura de um celular" loading="lazy">
-          </div>
-        </div>
-        <div class="project-link-col">
-          <a href="https://cesites.com.br" target="_blank" rel="noopener" class="project-link">
-            ver site <span>↗</span>
-          </a>
-          <div class="project-stats">
-            status <span>no ar</span><br>
-            desde <span>2026</span>
-          </div>
-        </div>
-      </article>
-
-
-      <article class="project">
-        <div class="project-num">
-          <span class="icon">▦</span>
-          PRJ_02
-        </div>
-        <div class="project-body">
-          <h3 class="project-title">NoPrumo</h3>
-          <p class="project-desc">
-            Gestão de obras para construtoras, TCC do Entra21, feito por
-            <strong class="ink">uma equipe de cinco pessoas</strong>. A obra é o centro do sistema:
-            etapas, equipe, material, EPI e financeiro ficam na página dela. O mestre de obras
-            enxerga quantidade e a administração enxerga dinheiro, com um DTO por perfil, porque
-            esconder na tela não basta.
-          </p>
-          <div class="project-tags">
-            <span class="tag hl">.NET 8</span>
-            <span class="tag">Web API</span>
-            <span class="tag">EF Core</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">React 19</span>
-            <span class="tag">xUnit</span>
-          </div>
-        </div>
-        <div class="project-link-col">
-          <a href="https://github.com/GabrielHenriqueCe/NoPrumo" target="_blank" rel="noopener" class="project-link">
-            ver repo <span>↗</span>
-          </a>
-          <div class="project-stats">
-            equipe <span>5 pessoas</span><br>
-            ano <span>2026</span>
-          </div>
-        </div>
-      </article>
-
-
-      <article class="project">
-        <div class="project-num">
-          <span class="icon">↻</span>
-          PRJ_03
-        </div>
-        <div class="project-body">
-          <h3 class="project-title">Trilha C#</h3>
-          <p class="project-desc">
-            Meu treino para escrever C# sozinho. Cada habilidade passa por
-            <strong class="ink">várias repetições, cada uma com outro tema e outra regra</strong>,
-            até sair sem IA. O caminho vai do console ao SQL, ao front e à Web API, e termina num
-            jogo por turnos feito por mim.
-          </p>
-          <div class="project-tags">
-            <span class="tag hl">C#</span>
-            <span class="tag">POO</span>
-            <span class="tag">exceções</span>
-            <span class="tag">em andamento</span>
-          </div>
-        </div>
-        <div class="project-link-col">
-          <a href="https://github.com/GabrielHenriqueCe/TrilhaCSharp" target="_blank" rel="noopener" class="project-link">
-            ver repo <span>↗</span>
-          </a>
-          <div class="project-stats">
-            fase atual <span>console</span>
-          </div>
-        </div>
-      </article>
-
-
-      <article class="project project-small">
-        <div class="project-num">
-          PRJ_04
-        </div>
-        <div class="project-body">
-          <h3 class="project-title">Estudos</h3>
-          <p class="project-desc">
-            Onde comecei: o Campo Minado (4 versões, do procedural à POO), a Loja (5 versões,
-            com validação e encapsulamento) e os exercícios do Entra21.
-          </p>
-        </div>
-        <div class="project-link-col">
-          <a href="https://github.com/GabrielHenriqueCe/Campo-Minado" target="_blank" rel="noopener" class="project-link">
-            campo minado <span>↗</span>
-          </a>
-          <a href="https://github.com/GabrielHenriqueCe/Loja-CSharp-Estudos" target="_blank" rel="noopener" class="project-link">
-            loja <span>↗</span>
-          </a>
-          <a href="https://github.com/GabrielHenriqueCe/Atividades_Entra21" target="_blank" rel="noopener" class="project-link">
-            entra21 <span>↗</span>
-          </a>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<section id="stack">
-  <div class="wrap">
-    <div class="skills-grid">
+    <section class="caso">
       <div>
-        <div class="section-num section-num-mb">03 / stack</div>
-        <h2 class="section-title section-title-sm">
-          Onde eu sou <em>forte</em>, e onde estou crescendo.
-        </h2>
+        <p class="etapa">Modelar o domínio</p>
+        <h2 class="titulo-sozinho">NoPrumo<span class="ponto">.</span></h2>
+        <p>Gestão de obras para construtoras. TCC do Entra21, em equipe de cinco pessoas.</p>
+        <p class="ligacoes"><a href="https://github.com/GabrielHenriqueCe/NoPrumo">Ver o repositório</a></p>
       </div>
+      <dl class="detalhes">
+        <div><dt>Para quem</dt><dd>A construtora, em que o mestre de obras e a administração precisam de coisas diferentes.</dd></div>
+        <div><dt>O que decidimos</dt><dd>A obra é o centro do sistema. O mestre enxerga quantidade e a administração enxerga dinheiro.</dd></div>
+        <div><dt>Por quê</dt><dd>Esconder na tela não basta: se o valor vier no JSON, o DevTools mostra. Por isso a API devolve um DTO por perfil.</dd></div>
+        <div><dt>Liderança</dt><dd>Liderei a equipe de cinco pessoas: dividi o trabalho em fatias e coordenei a entrega e a revisão de cada uma.</dd></div>
+        <div><dt>O que fiz</dt><dd>O login com JWT, a tela de login e o cadastro de usuários, as obras e etapas, o financeiro da obra e o painel.</dd></div>
+      </dl>
+    </section>
 
-      <div class="skills-content">
+    <section>
+      <h2 class="titulo-sozinho">Como trabalho com IA<span class="ponto">.</span></h2>
+      <p class="texto">Trabalho com IA, e foi com ela que aprendi o que sei. As regras que ela segue nos meus projetos estão escritas e são públicas: desenho antes do código e nada de commit sem o meu ok.</p>
+      <p class="texto">A Trilha C# é meu treino com IA: faço exercícios até não precisar mais dela naquele assunto. Depois volto a usar, e ela deixa de ser muleta e vira ferramenta. É um ciclo.</p>
+      <p class="ligacoes"><a href="https://github.com/GabrielHenriqueCe/claude-padrao">claude-padrao</a><a href="https://github.com/GabrielHenriqueCe/TrilhaCSharp">Trilha C#</a></p>
+    </section>
 
-        <div class="skill-block">
-          <div class="skill-label">⌗ Linguagens</div>
-          <ul>
-            <li>C# <span class="level">base firme</span></li>
-            <li>SQL <span class="level">básico</span></li>
-            <li>JavaScript <span class="level">básico</span></li>
-            <li>HTML/CSS <span class="level">básico</span></li>
-          </ul>
-        </div>
-
-        <div class="skill-block">
-          <div class="skill-label">⌗ Frameworks &amp; Tools</div>
-          <ul>
-            <li>Git/GitHub <span class="level">diário</span></li>
-            <li>Visual Studio <span class="level">diário</span></li>
-            <li>ASP.NET Core Web API <span class="level">usei em projeto</span></li>
-            <li>React <span class="level">usei em projeto</span></li>
-            <li>Figma <span class="level">começando</span></li>
-          </ul>
-        </div>
-
-        <div class="skill-block">
-          <div class="skill-label">⌗ Conceitos</div>
-          <ul>
-            <li>POO <span class="level">base firme</span></li>
-            <li>Coleções e exceções <span class="level">praticando</span></li>
-            <li>Generics, LINQ, async/await <span class="level">praticando</span></li>
-            <li>Clean Architecture, DTO <span class="level">usei em projeto</span></li>
-          </ul>
-        </div>
-
-        <div class="skill-block">
-          <div class="skill-label">⌗ Soft skills (do campo)</div>
-          <ul>
-            <li>Troubleshooting <span class="level">avançado</span></li>
-            <li>Visão sistêmica <span class="level">avançado</span></li>
-            <li>Comunicação com cliente <span class="level">avançado</span></li>
-            <li>Pressão / urgência <span class="level">avançado</span></li>
-          </ul>
-        </div>
-
-        <div class="skill-block">
-          <div class="skill-label">⌗ Próximos passos</div>
-          <ul>
-            <li>SQL sem consulta <span class="level">2027</span></li>
-            <li>Front à mão, do Figma ao código <span class="level">2027</span></li>
-            <li>Web API e EF Core do zero <span class="level">2027</span></li>
-            <li>Inglês <span class="level">2027</span></li>
-          </ul>
-        </div>
-
-        <div class="skill-block">
-          <div class="skill-label">⌗ Idiomas</div>
-          <ul>
-            <li>Português <span class="level">nativo</span></li>
-            <li>Inglês técnico <span class="level">leitura</span></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="exp">
-  <div class="wrap">
-    <div class="timeline">
-      <div>
-        <div class="section-num section-num-mb">04 / trajetória</div>
-        <h2 class="section-title section-title-sm">
-          De eletrotécnica a <em>código</em>.
-        </h2>
-      </div>
-
-      <div class="timeline-list">
-
-        <div class="timeline-item current">
-          <div class="timeline-year">2026 — hoje</div>
-          <div>
-            <div class="timeline-role">Cé Sites</div>
-            <div class="timeline-company">Negócio próprio de sites, em paralelo à Claro</div>
-            <div class="timeline-desc">
-              Criação, publicação e manutenção de sites para pequenas empresas.
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item current">
-          <div class="timeline-year">2024 — hoje</div>
-          <div>
-            <div class="timeline-role">Técnico AT Empresarial III</div>
-            <div class="timeline-company">Claro S.A. · Blumenau, SC</div>
-            <div class="timeline-desc">
-              Atendimento técnico de campo a clientes empresariais de grande porte (bancos,
-              correios, empresas nacionais/internacionais e governo). Diagnóstico e resolução
-              de problemas em tráfego, velocidade, perda de pacotes e qualidade de serviço.
-              Configuração de equipamentos em redes HFC e fibra óptica cobrindo mais de
-              50 cidades.
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-year">2023 — 2024</div>
-          <div>
-            <div class="timeline-role">Técnico Rede I</div>
-            <div class="timeline-company">Claro NXT Telecomunicações · Blumenau, SC</div>
-            <div class="timeline-desc">
-              Operação e suporte de rede em ambiente de telecom. Base para o avanço ao cargo atual.
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-year">2021 — 2023</div>
-          <div>
-            <div class="timeline-role">Técnico de Informática Nível II</div>
-            <div class="timeline-company">Prisma Instalações · Ascurra, SC</div>
-            <div class="timeline-desc">
-              Suporte técnico, configuração e manutenção de sistemas e equipamentos.
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-year">2018 — 2019</div>
-          <div>
-            <div class="timeline-role">Auxiliar Técnico de Automação</div>
-            <div class="timeline-company">Perfor Indústria de Máquinas · Ascurra, SC</div>
-            <div class="timeline-desc">
-              Apoio a projetos de automação industrial — primeiro contato com lógica aplicada.
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-year">2018</div>
-          <div>
-            <div class="timeline-role">Técnico de Informática</div>
-            <div class="timeline-company">Delta Informática · Ascurra, SC</div>
-            <div class="timeline-desc">
-              Atendimento, manutenção e configuração de equipamentos.
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="timeline timeline-second">
-      <div>
-        <div class="section-num section-num-mb">05 / formação</div>
-        <h2 class="section-title section-title-sm">
-          O <em>currículo</em> formal.
-        </h2>
-      </div>
-
-      <div class="timeline-list">
-        <div class="timeline-item current">
-          <div class="timeline-year">2025 — 2028</div>
-          <div>
-            <div class="timeline-role">Engenharia de Software · 4º semestre</div>
-            <div class="timeline-company">Uniasselvi</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-year">mar — out 2026</div>
-          <div>
-            <div class="timeline-role">C# Developer Essentials · 320h</div>
-            <div class="timeline-company">Entra21 · ACATE-Blusoft · TCC: NoPrumo</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-year">2020 — 2023</div>
-          <div>
-            <div class="timeline-role">Jogos Digitais</div>
-            <div class="timeline-company">Estácio</div>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-year">2012 — 2013</div>
-          <div>
-            <div class="timeline-role">Técnico em Eletrotécnica · 1.570h</div>
-            <div class="timeline-company">SENAI</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="wrap">
-    <div class="contact-grid">
-      <div class="section-num">06 / contato</div>
-
-      <div class="contact-content">
-        <div class="contact-big">
-          Vamos<br>
-          conversar<br>
-          <em>sobre código?</em>
-        </div>
-
-        <p class="contact-lead">
-          Disponível para vagas júnior em C# / .NET — preferência por Blumenau e região
-          (presencial ou híbrido). Resposta rápida nos canais abaixo.
-        </p>
-
-        <div class="contact-methods">
-          <a href="mailto:ga.biel.hce@gmail.com" class="contact-method">
-            <span class="cm-label">e-mail</span>
-            <span class="cm-value">ga.biel.hce@gmail.com</span>
-            <span class="cm-arrow">↗</span>
-          </a>
-          <a href="https://www.linkedin.com/in/gabriel-henrique-c%C3%A9-2a97b31a0" target="_blank" rel="noopener" class="contact-method">
-            <span class="cm-label">linkedin</span>
-            <span class="cm-value">/in/gabriel-henrique-cé</span>
-            <span class="cm-arrow">↗</span>
-          </a>
-          <a href="https://github.com/GabrielHenriqueCe" target="_blank" rel="noopener" class="contact-method">
-            <span class="cm-label">github</span>
-            <span class="cm-value">/GabrielHenriqueCe</span>
-            <span class="cm-arrow">↗</span>
-          </a>
-          <div class="contact-method">
-            <span class="cm-label">localização</span>
-            <span class="cm-value">Blumenau, SC</span>
-            <span class="cm-arrow">●</span>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section>
+      <h2>De onde venho<span class="ponto">.</span></h2>
+      <ul class="linhas">
+        <li><span>2024 – atual</span><div>Técnico AT Empresarial III, Claro. Clientes empresariais sob SLA de 4 horas.</div></li>
+        <li><span>2026</span><div>C# Developer Essentials, 320 horas, Entra21.</div></li>
+        <li><span>2025 – 2028</span><div>Engenharia de Software, Uniasselvi. 4º semestre.</div></li>
+      </ul>
+    </section>
 
     <footer>
-      <div class="footer-grid">
-        <div class="built">
-          <span>gabriel cé · 2026</span>
-        </div>
-        <div>
-          <span>blumenau, sc</span>
-        </div>
-      </div>
+      <section>
+        <h2>Vamos conversar<span class="ponto">.</span></h2>
+        <p class="ligacoes"><a href="mailto:ga.biel.hce@gmail.com">ga.biel.hce@gmail.com</a><a href="https://www.linkedin.com/in/gabriel-henrique-ce">LinkedIn</a><a href="https://github.com/GabrielHenriqueCe">GitHub</a></p>
+      </section>
     </footer>
-  </div>
-</section>
-
+  </main>
+</div>
+<script src="js/mascote.js" defer></script>
 </body>
 </html>
